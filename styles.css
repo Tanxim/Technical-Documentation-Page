@@ -1,0 +1,29 @@
+*{
+  scroll-behavior: smooth;
+}
+div{
+  padding-left: 210px;
+}
+nav{
+  border-right: 3px solid #adacac;
+  position: fixed;
+  top: 0;
+  left: 10px;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  content-justify: space-evenly;
+}
+a{
+  border-top: 1px solid black;
+  padding-top: 10px;
+  color: black;
+  margin: 10px 5px 3px;
+  text-decoration: none;
+}
+@media screen and (prefers-reduced-motion: reduce){
+  *{
+    scroll-behavior: auto;
+  }
+}
